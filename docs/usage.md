@@ -216,17 +216,7 @@ $(function() {
 	</tr>
 	<tr>
 		<td valign="top"><code>sortField</code></td>
-		<td valign="top">
-			A single field or an array of fields to sort by. Each item in the array should be an object containing at
-			least a "field" property. Optionally, "direction" can be set to "asc" or "desc". The
-			order of the array defines the sort precedence.<br><br>
-
-			Unless present, a special "$score" field will be automatically added to the beginning
-			of the sort list. This will make results sorted primarily by match quality (descending).<br><br>
-			
-
-			You can override the "$score" function. For more information, see the <a href="https://github.com/brianreavis/sifter.js#sifterjs">sifter documentation</a>.
-		</td>
+		<td valign="top">A single field or an array of fields to sort by. Each item in the array should be an object containing atleast a "field" property. Optionally, "direction" can be set to "asc" or "desc". The order of the array defines the sort precedence.<br/><br/>Unless present, a special "$score" field will be automatically added to the beginning of the sort list. This will make results sorted primarily by match quality (descending). <br/><br/>You can override the "$score" function. For more information, see the <a href="https://github.com/brianreavis/sifter.js#sifterjs">sifter documentation</a>.</td>
 		<td valign="top"><code>string|array</code></td>
 		<td valign="top"><code>'$order'</code></td>
 	</tr>
